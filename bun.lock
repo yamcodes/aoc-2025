@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "aoc-2025",
+    },
+    "days/1": {
+      "name": "day-1",
+    },
+  },
+  "packages": {
+    "day-1": ["day-1@workspace:days/1"],
+  }
+}

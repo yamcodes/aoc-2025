@@ -1,0 +1,9 @@
+{
+	"name": "aoc-2025",
+	"workspaces": [
+		"days/*"
+	],
+	"scripts": {
+		"day-1": "bun run days/1/index.js"
+	}
+}
