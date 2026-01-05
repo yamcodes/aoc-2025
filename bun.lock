@@ -4,12 +4,26 @@
   "workspaces": {
     "": {
       "name": "aoc-2025",
+      "dependencies": {
+        "buckets-js": "^1.98.2",
+        "collect.js": "^4.36.1",
+        "immutable": "^5.1.4",
+        "radashi": "^12.7.1",
+      },
     },
     "days/1": {
       "name": "day-1",
     },
   },
   "packages": {
+    "buckets-js": ["buckets-js@1.98.2", "", {}, "sha512-6BPr9pfJdeY7EOgyzj8v3dtGasgEGFsnif2i1NASpJeeB2y5dajUwP9B3UUqtxbkLI5bppryB0CybZoZB1wd5g=="],
+
+    "collect.js": ["collect.js@4.36.1", "", {}, "sha512-jd97xWPKgHn6uvK31V6zcyPd40lUJd7gpYxbN2VOVxGWO4tyvS9Li4EpsFjXepGTo2tYcOTC4a8YsbQXMJ4XUw=="],
+
     "day-1": ["day-1@workspace:days/1"],
+
+    "immutable": ["immutable@5.1.4", "", {}, "sha512-p6u1bG3YSnINT5RQmx/yRZBpenIl30kVxkTLDyHLIMk0gict704Q9n+thfDI7lTRm9vXdDYutVzXhzcThxTnXA=="],
+
+    "radashi": ["radashi@12.7.1", "", {}, "sha512-rwxcGY3oKMQJ+ojhS4MlxyVWqdXPVJSxg3ZjXDYYz26DYRuAAs+7XBM406/GYzPEBbjSJqdKfHDpBRfjWn34RQ=="],
   }
 }

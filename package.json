@@ -4,6 +4,12 @@
 		"days/*"
 	],
 	"scripts": {
-		"day-1": "bun run days/1/index.js"
+		"day-1": "bun run --watch days/1/index.js"
+	},
+	"dependencies": {
+		"buckets-js": "^1.98.2",
+		"collect.js": "^4.36.1",
+		"immutable": "^5.1.4",
+		"radashi": "^12.7.1"
 	}
 }
